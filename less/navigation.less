@@ -1,1 +1,37 @@
 // Navigation code here
+
+nav{
+  .displayFlex(column, center, center);
+  background: @navBG;
+
+  position: fixed;
+  top: 0;
+  height: 10vh;
+  padding: 1.25vh 0;
+
+  width: 100%;
+
+  .logo-cont{
+
+
+    h1{
+      font-size: 5rem;  
+
+    }//h1
+  }//logo cont
+  .nav-items{
+    .displayFlex(row, space-between, center);
+    width: 25%;
+    margin-top: 1vh;
+
+    a{
+      color: @navItem;
+      text-decoration: none;
+      font-size: 1.75rem;
+
+      &:hover{
+        color: rgb(153, 65, 65);
+      }//hover
+    }//a
+  }//nav items
+}//nav

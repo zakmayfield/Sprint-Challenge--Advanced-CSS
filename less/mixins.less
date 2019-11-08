@@ -1,1 +1,28 @@
 // Mixins Here
+.border(){
+  border: 1px solid gray;
+}
+
+
+//display flex 
+.displayFlex(@flow, @justify, @align){
+  display: flex;
+  flex-flow: @flow;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+//btn
+.btn(@fontSize, @bgColor, @fontColor){
+  font-size: @fontSize;
+  background: @bgColor;
+  color: @fontColor;
+  border-radius: 8px;
+  padding: 2%;
+}
+
+//btn hover
+.reverseColor(@fontColor, @bgColor){
+  color: @bgColor;
+  background: @fontColor;
+}

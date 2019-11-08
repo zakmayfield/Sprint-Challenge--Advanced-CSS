@@ -1,18 +1,26 @@
 // Home Content
 
 .home {
-
+  
   .intro {
+
+    .hero-cont{
+      margin-top: 10vh;
+
+      img{
+
+      }//img
+    }//hero cont
 
     h2 {
       padding: 15px;
-    }
+    }//g2
 
     p {
       padding:0 15px;
-    }
+    }//p
   
-  }
+  }//intro
 
   .space-images {
     display: flex;
@@ -58,6 +66,17 @@
       }
 
       .btn {
+        .displayFlex(row, center, center);
+        .btn(2rem, #23293B, rgb(177, 177, 177));
+        padding: 3%;
+        width: 30%;
+        transition: 3s;
+
+        &:hover{
+          transition: 3s;
+          transform: scale3d(1.1, 1.1, 1.1);
+          .reverseColor(rgb(177, 177, 177), #23293B);
+        }
       }
     }
 

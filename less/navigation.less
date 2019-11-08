@@ -1,1 +1,58 @@
 // Navigation code here
+
+nav{
+  .displayFlex(column, center, center);
+  background: @navBG;
+
+  position: fixed;
+  top: 0;
+  height: 13vh;
+  padding: 1.25vh 0;
+
+  width: 100%;
+
+  transition: 5s;
+
+  @media @phone{
+    padding: 3vh;
+    height: 15vh;
+  }
+
+  .logo-cont{
+
+
+    h1{
+      font-size: 5rem;  
+
+      @media @phone{
+        font-size: 3.5rem;
+      }
+
+    }//h1
+  }//logo cont
+  .nav-items{
+    .displayFlex(row, space-around, center);
+    width: 75%;
+    padding: 0 10%;
+    margin-top: 1vh;
+
+    @media @phone{
+      width: 100%;
+      padding: 0 5%;
+    }
+
+    a{
+      color: @navItem;
+      text-decoration: none;
+      font-size: 1.75rem;
+
+      @media @phone{
+        font-size: 1.5rem;
+      }
+
+      &:hover{
+        color: rgb(153, 65, 65);
+      }//hover
+    }//a
+  }//nav items
+}//nav

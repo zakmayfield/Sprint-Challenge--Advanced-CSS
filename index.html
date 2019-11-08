@@ -2,6 +2,7 @@
 
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
 
   <title>SpaceWalkers</title>
@@ -15,13 +16,27 @@
 </head>
 
 <body>
+ <nav>
+   <div class="logo-cont">
+     <h1>SpaceWalkers</h1>
+   </div>
 
- <!-- navigation code here -->
+   <div class="nav-items">
+     <a href="#">Home</a>
+     <a href="#">About Us</a>
+     <a href="#">Blog</a>
+     <a href="#">Contact</a>
+     <a href="#">Sign In</a>
+   </div>
+ </nav>
 
   <div class="container home">
 
     <header class="intro">
        <!-- image code here -->
+       <div class="hero-cont">
+         <img src="/img/main-header.png" alt="">
+       </div>
 
       <h2>Lift Off</h2>
     
@@ -29,11 +44,11 @@
     </header>
 
     <section class="space-images">
-        <img src="img/blast.png" class="blast" alt="Rocket blasting off">
-        <img src="img/sky.png" class="sky" alt="Space sky image">
-        <img src="img/launch.png" class="launch" alt="Launching rocket">
+        <img class="img-one" src="img/blast.png" class="blast" alt="Rocket blasting off">
+        <img class="img-two" src="img/sky.png" class="sky" alt="Space sky image">
+        <img class="img-three" src="img/launch.png" class="launch" alt="Launching rocket">
     </section>
-   
+
     <section class="visit-planets">
      
       <h3>Can We Visit Planets?</h3>
@@ -61,6 +76,27 @@
       </div>
 
     </section>
+
+    <div class="form-bg">
+        <section class="sign-up-cont">
+            <h2>Sign up for SpaceWalkers Magazine!</h2>
+            <p>For the latest news and updates</p>
+            <form action="sign-up">
+              <label for="firstName">* First Name</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Your Name" required>
+              <br>
+              <label for="lastName">* Last Name</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Your Name" required>
+              <br>
+              <label for="address">* Email Address</label>
+              <input type="text" id="address" name="address" placeholder="johnnyappleseed@gmail.com" required>
+              <br>
+              <div class="submit-btn">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </section>
+    </div>
 
     <footer>
       <p>Copyright SpaceWalkers 2018</p>

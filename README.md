@@ -26,7 +26,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 [Click here to review the mobile design](design-files/home-mobile.png)
 
-## Self-Study Questions
+## Self-Study Questions *DONE*
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
@@ -97,7 +97,7 @@ Your finished project must include all of the following requirements:
 
 _You will know everything is working properly when you see the styles enabled for the provided content._  
 
-### Home Page - Desktop HTML & LESS
+### Home Page - Desktop HTML & LESS *COMPLETE*
 
 * [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 *DONE*
@@ -126,7 +126,7 @@ _You will know everything is working properly when you see the styles enabled fo
 * [ ] Create a hover state that swaps the background color and font color of the base button styles.
 *DONE*
 
-### Mobile Design
+### Mobile Design *COMPLETE*
 
 * [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 *DONE*
@@ -138,7 +138,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
-## Stretch Problems
+## Stretch Problems *3/4*
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
@@ -151,3 +151,4 @@ After finishing your required elements, you can push your work further. These go
 *DONE*
 
 * [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+*DONE*

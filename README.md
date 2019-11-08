@@ -129,8 +129,10 @@ _You will know everything is working properly when you see the styles enabled fo
 ### Mobile Design
 
 * [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+*DONE*
 
 * [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+*DONE*
 
 * [ ] Push your changes and create a pull request if you haven't already.
 
@@ -143,7 +145,9 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
 
 * [ ] Introduce CSS animations to your site.
+*DONE*
 
 * [ ] Create a fixed navigation and add some opacity to the background
+*DONE*
 
 * [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription

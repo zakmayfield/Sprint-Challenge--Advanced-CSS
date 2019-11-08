@@ -6,12 +6,17 @@ nav{
 
   position: fixed;
   top: 0;
-  height: 10vh;
+  height: 13vh;
   padding: 1.25vh 0;
 
   width: 100%;
 
   transition: 5s;
+
+  @media @phone{
+    padding: 3vh;
+    height: 15vh;
+  }
 
   .logo-cont{
 
@@ -20,7 +25,7 @@ nav{
       font-size: 5rem;  
 
       @media @phone{
-        font-size: 4rem;
+        font-size: 3.5rem;
       }
 
     }//h1
@@ -33,6 +38,7 @@ nav{
 
     @media @phone{
       width: 100%;
+      padding: 0 5%;
     }
 
     a{

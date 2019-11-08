@@ -177,17 +177,23 @@ nav {
   background: rgba(236, 236, 255, 0.8);
   position: fixed;
   top: 0;
-  height: 10vh;
+  height: 13vh;
   padding: 1.25vh 0;
   width: 100%;
   transition: 5s;
+}
+@media (max-width: 500px) {
+  nav {
+    padding: 3vh;
+    height: 15vh;
+  }
 }
 nav .logo-cont h1 {
   font-size: 5rem;
 }
 @media (max-width: 500px) {
   nav .logo-cont h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 nav .nav-items {
@@ -202,6 +208,7 @@ nav .nav-items {
 @media (max-width: 500px) {
   nav .nav-items {
     width: 100%;
+    padding: 0 5%;
   }
 }
 nav .nav-items a {
@@ -228,7 +235,12 @@ footer {
   align-items: center;
 }
 .home .intro .hero-cont {
-  margin-top: 10vh;
+  margin-top: 13vh;
+}
+@media (max-width: 500px) {
+  .home .intro .hero-cont {
+    margin-top: 15vh;
+  }
 }
 .home .intro h2 {
   padding: 15px;
@@ -351,4 +363,70 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.form-bg {
+  background: url("/img/galaxy-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  padding: 3%;
+  margin-top: 3vh;
+}
+@media (max-width: 500px) {
+  .form-bg {
+    padding: 3% 0;
+  }
+}
+.form-bg .sign-up-cont {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background: #F4F4F4;
+  border-radius: 8px;
+  margin: 5vh 0;
+  padding: 5%;
+}
+@media (max-width: 500px) {
+  .form-bg .sign-up-cont {
+    border-radius: 0;
+  }
+}
+.form-bg .sign-up-cont h2 {
+  font-size: 3rem;
+  margin-bottom: 1vh;
+}
+.form-bg .sign-up-cont p {
+  margin-bottom: 5vh;
+}
+.form-bg .sign-up-cont form label {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+.form-bg .sign-up-cont form input[type=text] {
+  width: 100%;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-bg .sign-up-cont form .submit-btn {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.form-bg .sign-up-cont form .submit-btn input[type=submit] {
+  background: #23293B;
+  font-size: 2rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 3% 5%;
+  width: 100%;
+}
+.form-bg .sign-up-cont form .submit-btn input[type=submit]:hover {
+  color: #aaaaaa;
 }

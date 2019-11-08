@@ -1,0 +1,72 @@
+.form-bg{
+  background: url("/img/galaxy-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  padding: 3%;
+  margin-top: 3vh;
+
+  @media @phone{
+    padding: 3% 0;
+  }
+
+  .sign-up-cont{
+    .displayFlex(column, center, center);
+    
+    background: #F4F4F4;
+    border-radius: 8px;
+  
+    margin: 5vh 0;
+    padding: 5%;
+
+    @media @phone{
+      border-radius: 0;
+    }
+  
+    h2{
+      font-size: 3rem;
+      margin-bottom: 1vh;
+    }
+  
+    p{
+      margin-bottom: 5vh;
+    }
+  
+    form{
+  
+      label{
+        font-size: 2rem;
+        margin-right: 10px;
+      }
+  
+      input[type=text]{
+        width: 100%;
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+        padding: 12px; 
+        border: 1px solid #ccc; 
+        border-radius: 4px;
+      }
+  
+      .submit-btn{
+        .displayFlex(row, center, center);
+        width: 100%;
+        
+  
+        input[type=submit]{
+          background: #23293B;
+          font-size: 2rem;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          padding: 3% 5%;
+          width: 100%;
+  
+          &:hover{
+            color: rgb(170, 170, 170);
+          }
+        }
+      }
+    }
+  }//sign up cont
+}
